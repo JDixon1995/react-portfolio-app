@@ -17,6 +17,10 @@ const Intro = () => {
                         <div className="i-title-item">Public Speaker</div>
                     </div>
                 </div>
+                <div className="i-desc">
+                    I design, develop and test full-stack applications for clients of all sizes. 
+                    I specialize in online storefronts, blogs, and creating the latest in stylish, modern websites.
+                </div>
             </div>
         </div>
         <div className="i-right">right</div>
