@@ -12,6 +12,7 @@
 
 .i-right {
     flex: 1;
+    position: relative;
 }
 
 .i-left-wrapper {
@@ -73,4 +74,19 @@
     width: 50%;
     height: 50%;
     object-fit: cover;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    border-radius: 250px;
+    border: 3px solid black;
+}
+
+.i-img-backg {
+    clip-path: polygon(100% 0%, 100% 57%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: #59b256;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
