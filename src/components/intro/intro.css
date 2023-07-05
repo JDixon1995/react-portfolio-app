@@ -66,5 +66,11 @@
 }
 
 .i-desc {
+    display: none;
+}
 
+.i-img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
 }
