@@ -5,6 +5,7 @@ import Intro from './components/intro/Intro'
 import About from './components/about/About'
 import ProductList from './components/productList/productList'
 import Contact from './components/contact/Contact'
+import Toggle from './components/toggle/Toggle'
 
 function App() {
   const theme = useContext(ThemeContext)
@@ -17,6 +18,7 @@ function App() {
       color: darkMode && "white"
     }}
     >
+      <Toggle />
       <Intro />
       <About />
       <ProductList />
